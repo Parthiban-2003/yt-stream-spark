@@ -1,12 +1,17 @@
 import './App.css'
+import FeatureVideos from './components/FeatureVideos'
+import HeroSection from './components/HeroSection'
+import Navbar from './components/NavBar'
+import Subscribe from './components/Subscribe'
 
 function App() {
 
   return (
     <>
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Navbar/>
+      <HeroSection/>
+      <FeatureVideos/>
+      <Subscribe/>
     </>
   )
 }
